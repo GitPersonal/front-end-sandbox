@@ -8,6 +8,14 @@
             align-items: center;
             height: 100vw;
         }
+        a{
+          color: yellowgreen;
+          text-decoration: none;
+        }
+        li{
+          list-style-type: none;
+          
+        }
         .container{
             background-color: rgb(45, 71, 174);
             color: whitesmoke;
