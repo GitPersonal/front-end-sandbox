@@ -7,3 +7,5 @@ const domRects = el.getBoundingClientRect();
 const newEl = document.querySelector('.new-element')
 const domRectEl = newEl.getBoundingClientRect();
 console.log(domRectEl)
+
+
