@@ -36,9 +36,10 @@
 // you can also select the first element with *** firstElementChild ***
 // const list = document.querySelectorAll('li');
 // const firstItem = list[0];
+// console.log(firstItem)
 //             // ==== OR ==== 
 // const list = document.querySelectorAll('.list');
-// const firstItem = list.firstElementChild
+// const firstItem = list.firstElementChild;
 
 //////////////////////////////////////////////////////////////////////////////////////////////
 // you can select the first element with children like this: const firstItem = listItems[0];
@@ -84,10 +85,35 @@
   // To find an element that can be multiple levels above the current element 
   // const closestAncestor = Element.closest(selector)
 
-const firstLink = document.querySelector('a')
+// const firstLink = document.querySelector('a')
 
-const list = firstLink.closest('.list') 
-console.log(list)
+// const list = firstLink.closest('.list') 
+// console.log(list)
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++ Traversing sideways +++++++++++++++
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+// There are three ways to traverse sideways:
+
+// 1. nextElementSibling
+// 2. previousElementSibling
+// 3. Combining parentElement, children, and index
+
+// <<<<<<<<<<<<<<<<<<<< nextElementSibling >>>>>>>>>>>>>>>>
+// const nextElem = Node.nextElementSibling;
+// console.log(nextElem)
+
+
+const firstListItem = document.querySelector('li');
+
+const secondListItem = firstListItem.nextElementSibling
+console.log(secondListItem)
+
+
+
 
 
 
