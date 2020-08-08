@@ -12,9 +12,12 @@
           color: yellowgreen;
           text-decoration: none;
         }
+        .list {
+            padding-left: 0;
+        }
         li{
           list-style-type: none;
-          
+         
         }
         .container{
             background-color: rgb(45, 71, 174);
@@ -37,6 +40,11 @@
           margin: 0rem 1%;
           height: 30vw;
           /* margin: 0 2rem; */
+        }
+
+        button {
+            font-size: 3rem;
+            padding: 3rem;
         }
         .blue{
             color: blue;
